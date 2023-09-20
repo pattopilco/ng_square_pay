@@ -1,0 +1,15 @@
+<div class="w-screen h-screen bg-gray-50 relative">
+  <div class="relative w-4/12 m-auto">
+    <div class="bg-white rounded shadow py-4 px-6">
+      <div class="mb-4">
+        <h1 class="text-center font-semibold pt-4 pb-8">PAYMENT SANDBOX</h1>
+          <div class="relative" >
+              <input type="number" placeholder="Valor a pagar" class="w-full rounded bg-gray-100 border-2" [(ngModel)]="value">
+          </div>
+         <app-payment-card [valuePayWidthCard]=value></app-payment-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+
